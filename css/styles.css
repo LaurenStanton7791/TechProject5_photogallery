@@ -1,0 +1,27 @@
+.top-nav {
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.25em; 
+    padding: 30px 30px; 
+    
+}
+.grid {
+    height: 300px; 
+    width: 300px; 
+    padding: 5px; 
+    align-content: center;
+    border: solid lightgray;
+    margin: 10px; 
+}
+
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+            "header header header "
+            "main main main"
+            "footer footer footer";
+    }
+  }
