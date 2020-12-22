@@ -10,18 +10,17 @@
     width: 300px; 
     padding: 5px; 
     align-content: center;
-    border: solid lightgray;
     margin: 10px; 
 }
 
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .grid-container {
         display: grid;
         justify-content: center;
         grid-template-areas: 
-            "header header header "
-            "main main main"
-            "footer footer footer";
+            "header header header header "
+            "main main main main "
+            "footer footer footer footer";
     }
   }
