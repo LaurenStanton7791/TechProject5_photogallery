@@ -22,11 +22,11 @@ input {
     width: 100%;
 }
 
-#search {
+#myInput {
     margin: 0 auto;
     display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black; 
+    
 }
 
 .gallery__img:hover  {
