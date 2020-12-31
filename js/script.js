@@ -1,10 +1,13 @@
+///************ 1st search filter attempt*//
 
-/*function images() {
+/*
+
+function images() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toLowerCase();
-  a = document.getElementById("data-caption");
+  a = document.getElementById("myGallery");
   li = ul.getElementsByTagName('a');
 
   // Loop through all list items, and hide those who don't match the search query
@@ -19,7 +22,9 @@
   }
 }*/
 
-/*$(document).ready(function() {
+////***2nd attempt */////
+/*
+$(document).ready(function() {
 
 let images = document.getElementsByTagName('a');
     $("#myInput").on('keyup', function() {
@@ -37,7 +42,9 @@ let images = document.getElementsByTagName('a');
 
 });*/
 
-/*const myGallery = document.getElementsById('myGallery');
+///3rd attempt*////
+/*
+const myGallery = document.getElementsById('myGallery');
 const myInput = document.getElementById('myInput');
 let images = $('#myInput').val().toLowerCase();
 
@@ -55,7 +62,7 @@ searchBar.addEventListener('keyup', e => {
   function myInput() { 
     let input = document.getElementById('myInput').value 
     input = input.toLowerCase(); 
-    let x = document.getElementsByClassName.getAttribute('data-caption'); 
+    let x = document.getElementsByClassName('gallery'); 
       
     for (var i = 0; i < x.length; i++) {  
         if (!x[i].innerHTML.toLowerCase().includes(input)) { 
